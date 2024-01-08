@@ -1,61 +1,61 @@
-# Supabase SvelteKit User Management Tutorial
+# SvelteKit Instagram Bio Generator
 
-This repository contains the code created while following the [Supabase tutorial](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit) on integrating user management into a SvelteKit application. The tutorial guides you through setting up authentication and user management features using Supabase and SvelteKit.
+![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=instagram-bio-generator&style=for-the-badge)
 
-## Getting Started
+This is an Instagram bio generator built using SvelteKit and powered by the OpenAI API. It allows users to create catchy, unique, and personalized Instagram bios by generating text using the OpenAI language model.
 
-To run this project locally, follow these steps:
+**Live URL**: [Instagram Bio Generator](https://instagram-bio-generator.vercel.app/)
+
+## Features
+
+- **User-friendly Interface**: The SvelteKit-based interface offers an intuitive experience for generating Instagram bios.
+- **OpenAI API Integration**: Leverages the power of the OpenAI API to generate creative and diverse text for Instagram bios.
+- **Customization Options**: Users can specify certain traits, keywords, or styles they want in their bio to personalize the generated content.
+
+## Usage
 
 ### Prerequisites
 
-- Node.js and npm installed on your machine.
+- Node.js installed
+- OpenAI API key
 
 ### Installation
 
-1. Clone this repository to your local machine:
+1. Clone this repository.
+2. Install dependencies with `npm install`.
 
-   ```bash
-   git clone https://github.com/zaxwebs/sk-supabase-tutorial.git
-   ```
+### Configuration
 
-2. Navigate to the project directory:
+1. Obtain an API key from OpenAI.
+2. Create a `.env` file at the root of the project.
+3. Add your OpenAI API key to the `.env` file
 
-   ```bash
-   cd sk-supabase-tutorial
-   ```
+### Run Locally
 
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Configure Supabase:
-
-   - Follow the steps mentioned in the tutorial to set up a Supabase project.
-   - Obtain your Supabase URL and API key.
-   - Place values in `src/.env` with your actual Supabase URL and API key.
-
-### Running the Application
-
-Once the setup is complete, you can run the application using:
-
+Start the development server:
 ```bash
 npm run dev
 ```
 
-This will start the development server.
+The application will be available at `http://localhost:3000`.
 
-## Additional Notes
+### Deployment
 
-This repository follows the main sections of the tutorial but does not include the bonus section. Feel free to extend or modify the codebase based on your requirements or continue with the bonus features as outlined in the tutorial.
+For deployment, build the project:
+```bash
+npm run build
+```
+And then start the server:
+```bash
+npm run start
+```
 
-## Resources
+## Contributing
 
-- [Tutorial: Getting Started with Supabase and SvelteKit](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit)
-- [Supabase Documentation](https://supabase.com/docs)
-- [SvelteKit Documentation](https://kit.svelte.dev/docs)
-
-## License
+Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to add or modify sections based on specific instructions or additional functionalities of the project!
