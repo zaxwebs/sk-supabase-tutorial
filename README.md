@@ -1,38 +1,61 @@
-# create-svelte
+# Supabase SvelteKit User Management Tutorial
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This repository contains the code created while following the [Supabase tutorial](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit) on integrating user management into a SvelteKit application. The tutorial guides you through setting up authentication and user management features using Supabase and SvelteKit.
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+To run this project locally, follow these steps:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Prerequisites
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Node.js and npm installed on your machine.
 
-## Developing
+### Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/zaxwebs/sk-supabase-tutorial.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd sk-supabase-tutorial
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure Supabase:
+
+   - Follow the steps mentioned in the tutorial to set up a Supabase project.
+   - Obtain your Supabase URL and API key.
+   - Place values in `src/.env` with your actual Supabase URL and API key.
+
+### Running the Application
+
+Once the setup is complete, you can run the application using:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+This will start the development server.
 
-To create a production version of your app:
+## Additional Notes
 
-```bash
-npm run build
-```
+This repository follows the main sections of the tutorial but does not include the bonus section. Feel free to extend or modify the codebase based on your requirements or continue with the bonus features as outlined in the tutorial.
 
-You can preview the production build with `npm run preview`.
+## Resources
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [Tutorial: Getting Started with Supabase and SvelteKit](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit)
+- [Supabase Documentation](https://supabase.com/docs)
+- [SvelteKit Documentation](https://kit.svelte.dev/docs)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
